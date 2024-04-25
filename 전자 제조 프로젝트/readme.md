@@ -47,7 +47,7 @@ Visual defect classification is a critical process in manufacturing systems, aim
 ![image](https://github.com/sean03101/iai-project/assets/59594037/6ee5a465-473b-49ad-88a2-b8b0b282284b)
 
 
-## 실험
+## 실험 환경 및 데이터셋
 ### D-SUB connect dataset 설명
 카테고리 정보
   - 실험 데이터 셋은 코그넥스 회사에서 제작한, D-SUB 커넥터(전기 및 전자 장치에 사용되는 D 형태의 다양한 핀 수를 가진 표준 커넥터)에 관련된 제조 데이터 셋
@@ -72,12 +72,35 @@ Visual defect classification is a critical process in manufacturing systems, aim
 
 이미지 증강 방법
   - 제조 현장에서 자주 발생하는 8가지의 상황을 가정, 즉 8개의 가상 도메인을 추가로 생성
-  - 이미지 증강 방법 적용 예시
-  - 
+
+    이미지 증강 방법 적용 예시
 ![image](https://github.com/sean03101/iai-project/assets/59594037/198d1fbd-5c94-4ce7-90c6-458689ffe42e)
 
 
+## 실험 결과
+### 실험1
+**증강 도메인 별 도메인 일반화 기여도**
+
+![image](https://github.com/sean03101/iai-project/assets/59594037/7ffdbbf3-bf5e-4a4a-839a-8ab73704ea96)
+
+
+- 표는 단일 증강 도메인(Augmented domain) 사용했을 때, 방법에 대한 성능 비교 결과값
+- 표의 값들은 5회 반복 실험에서의 평균 정확도 × 100 값이며 이에 대한 표준 편차는 ± (해당 표준 편차 값)로 표현
+- 모든 방법론의 실험 결과를 종합한 결과 기여도 순서는 Brightness > Camera > Flip > Lightness > Contrast > Blur > Dropout > Noise 순서
+- 대부분의 방법론의 기여도 순서는 거의 비슷하지만 baseline과 VReX 방법은 예외로 순서가 다르며 좋은 성능을 보이는 도메인 증강 방법과 좋지 않는 성능을 보이는 증강 간의 차이가 확연히 큰 것을 알 수 있음
+- 또한, 방법론 전반적으로 기여도 순서가 낮은 증강 도메인일수록 표준 편차가 커지는 사실을 알 수 있음
+
+
+### 실험2
+
+
+
+### 실험3
+
+
 ## 결론
+
+
 
 ## 설치 방법
 
