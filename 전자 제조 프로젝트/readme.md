@@ -32,6 +32,11 @@ Visual defect classification is a critical process in manufacturing systems, aim
 
 ## 제안하는 연구 방법
 
+![image](https://github.com/sean03101/iai-project/assets/59594037/92b4e974-8a27-45ef-913a-5f625959e9e1)
+
+- 단일 환경에서 수집한 인스턴스를 활용해 다양한 환경 변화에서 적용할 수 있는 강건한 모델을 만들기 위해 일반적으로 단일 소스 도메인 일반화(Single source domain generalization)을 사용
+
+
 ## 실험
 
 ## 결론
