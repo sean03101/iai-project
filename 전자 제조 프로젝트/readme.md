@@ -35,6 +35,16 @@ Visual defect classification is a critical process in manufacturing systems, aim
 ![image](https://github.com/sean03101/iai-project/assets/59594037/92b4e974-8a27-45ef-913a-5f625959e9e1)
 
 - 단일 환경에서 수집한 인스턴스를 활용해 다양한 환경 변화에서 적용할 수 있는 강건한 모델을 만들기 위해 일반적으로 단일 소스 도메인 일반화(Single source domain generalization)을 사용
+- 본 연구는 단일 소스 데이터셋에 오프라인 데이터 증강을 사용하고, **각 증강 방법을 하나의 도메인**으로 설정하는 'domain augmentation' 프레임워크 제안
+- 제안하는 프레임워크에서의 학습 데이터는 기존의 도메인 뿐만 아니라 ‘증강된 도메인’(augmented domain)을 가지기에 **단일 소스 도메인 일반화가 아닌 다중 소스 도메인 일반화 문제로 치환** 가능
+
+
+
+![image](https://github.com/sean03101/iai-project/assets/59594037/39affa9a-aa03-4d44-bbfc-e2d4e549698e)
+
+
+
+![image](https://github.com/sean03101/iai-project/assets/59594037/6ee5a465-473b-49ad-88a2-b8b0b282284b)
 
 
 ## 실험
