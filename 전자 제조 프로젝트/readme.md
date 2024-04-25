@@ -53,4 +53,8 @@ Visual defect classification is a critical process in manufacturing systems, aim
 
 ## 설치 방법
 
+- 개발결과물 사용설명서.docx 및 requirement.txt 참고
+
 ## 참고 출처
+
+- [Transfer Learning Library](https://github.com/thuml/Transfer-Learning-Library) : 제안하는 프레임워크를 검증하기 위해 **여러 DG method가 존재하는 open library에서 D-sub connector dataset 전처리, dataloader 구성 및 시각화 부분을 추가**
