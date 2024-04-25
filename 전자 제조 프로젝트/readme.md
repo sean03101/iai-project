@@ -50,12 +50,14 @@ Visual defect classification is a critical process in manufacturing systems, aim
 ## 실험
 ### D-SUB connect dataset 설명
 ![image](https://github.com/sean03101/iai-project/assets/59594037/37c23f82-f12c-4b21-a5f2-583bd5a91873)
+
 -카테고리 정보
   - 실험 데이터 셋은 코그넥스 회사에서 제작한, D-SUB 커넥터(전기 및 전자 장치에 사용되는 D 형태의 다양한 핀 수를 가진 표준 커넥터)에 관련된 제조 데이터 셋
   - 데이터 셋의 카테고리는 6개 존재 (정상(ok) + 5개의 결함 종류)
 
 
 ![image](https://github.com/sean03101/iai-project/assets/59594037/71577a3f-6b7b-491e-81f9-6c3715bad6ff)
+
 -도메인 정보
   - D-sub 커넥터 데이터 셋은 4종류의 환경에 따라 관측된 이미지로 구성
   - 각 환경은 환경이 변화하는 정도에 따라 5단계의 서브 조건을 가짐
@@ -63,6 +65,7 @@ Visual defect classification is a critical process in manufacturing systems, aim
 
 
 ![image](https://github.com/sean03101/iai-project/assets/59594037/b0886363-c266-4e0b-ab42-45f4aef87968)
+
 - 학습/ 검증/ 테스트 데이터셋
 
 
