@@ -1,5 +1,3 @@
-![image](https://github.com/sean03101/iai-project/assets/59594037/f9b9022d-1a85-4cea-a7e8-3f3d9b458ce7)
-
 # Environmentally Robust Defect Classification with Domain Augmentation Framework
 
 ## Abstract
