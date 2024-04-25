@@ -40,11 +40,12 @@ Visual defect classification is a critical process in manufacturing systems, aim
 
 
 
-![image](https://github.com/sean03101/iai-project/assets/59594037/39affa9a-aa03-4d44-bbfc-e2d4e549698e)
+![image](https://github.com/sean03101/iai-project/assets/59594037/7fb3f7cb-ee19-4ba7-b019-91f7f06875c1)
 
 
 
-![image](https://github.com/sean03101/iai-project/assets/59594037/6ee5a465-473b-49ad-88a2-b8b0b282284b)
+
+![image](https://github.com/sean03101/iai-project/assets/59594037/949ffda5-1d1c-405d-8a57-05d199aea84a)
 
 
 ## 실험 환경 및 데이터셋
