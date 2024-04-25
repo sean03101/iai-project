@@ -1,4 +1,4 @@
-# Environmentally Robust Defect Classification with Domain Augmentation Framework
+![image](https://github.com/sean03101/iai-project/assets/59594037/f9b9022d-1a85-4cea-a7e8-3f3d9b458ce7)# Environmentally Robust Defect Classification with Domain Augmentation Framework
 
 ## Abstract
 Visual defect classification is a critical process in manufacturing systems, aiming to achieve high-quality production and reduce costs. Recently, deep learning-based defect classification models have achieved significant success. However, the performance of these models can be significantly reduced due to variations in manufacturing environments across multiple production lines. These variations, not present in the training data, result in a domain gap between training and test data. To address this challenge, we propose a domain augmentation framework for constructing a robust defect classification model. This model can deliver high performance across various manufacturing environments using a training dataset from only a single production line. The proposed framework first creates multiple augmented domains using image transformation functions. Then, a defect classification model is trained using a multi-source domain generalization (DG) method with these augmented domains. This approach mitigates the single-source DG problem to a multi-source DG problem, enabling the adoption of multi-source DG methods, which leads to performance improvements. The effectiveness of the proposed framework is demonstrated  through experiments using a dataset provided by a Korean manufacturing company.
@@ -48,6 +48,23 @@ Visual defect classification is a critical process in manufacturing systems, aim
 
 
 ## 실험
+### D-SUB connect dataset 설명
+![image](https://github.com/sean03101/iai-project/assets/59594037/37c23f82-f12c-4b21-a5f2-583bd5a91873)
+-카테고리 정보
+  - 실험 데이터 셋은 코그넥스 회사에서 제작한, D-SUB 커넥터(전기 및 전자 장치에 사용되는 D 형태의 다양한 핀 수를 가진 표준 커넥터)에 관련된 제조 데이터 셋
+  - 데이터 셋의 카테고리는 6개 존재 (정상(ok) + 5개의 결함 종류)
+
+
+![image](https://github.com/sean03101/iai-project/assets/59594037/71577a3f-6b7b-491e-81f9-6c3715bad6ff)
+-도메인 정보
+  - D-sub 커넥터 데이터 셋은 4종류의 환경에 따라 관측된 이미지로 구성
+  - 각 환경은 환경이 변화하는 정도에 따라 5단계의 서브 조건을 가짐
+  - 총 13개의 도메인(default + Lighting, Brightness, Cameraz 마다 4개) 존재
+
+
+- 학습/ 검증/ 테스트 데이터셋
+![image](https://github.com/sean03101/iai-project/assets/59594037/b0886363-c266-4e0b-ab42-45f4aef87968)
+
 
 ## 결론
 
