@@ -62,8 +62,9 @@ Visual defect classification is a critical process in manufacturing systems, aim
   - 총 13개의 도메인(default + Lighting, Brightness, Cameraz 마다 4개) 존재
 
 
-- 학습/ 검증/ 테스트 데이터셋
 ![image](https://github.com/sean03101/iai-project/assets/59594037/b0886363-c266-4e0b-ab42-45f4aef87968)
+- 학습/ 검증/ 테스트 데이터셋
+
 
 
 ## 결론
