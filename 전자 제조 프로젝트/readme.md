@@ -49,27 +49,32 @@ Visual defect classification is a critical process in manufacturing systems, aim
 
 ## 실험
 ### D-SUB connect dataset 설명
-![image](https://github.com/sean03101/iai-project/assets/59594037/a81a67b7-d22b-4130-8cac-f083de9af3dc)
-
-
 카테고리 정보
   - 실험 데이터 셋은 코그넥스 회사에서 제작한, D-SUB 커넥터(전기 및 전자 장치에 사용되는 D 형태의 다양한 핀 수를 가진 표준 커넥터)에 관련된 제조 데이터 셋
   - 데이터 셋의 카테고리는 6개 존재 (정상(ok) + 5개의 결함 종류)
-
-
-![image](https://github.com/sean03101/iai-project/assets/59594037/75c85f7d-1a87-44b2-818d-b45b6073d0e4)
+    
+![image](https://github.com/sean03101/iai-project/assets/59594037/a81a67b7-d22b-4130-8cac-f083de9af3dc)
 
 
 도메인 정보
   - D-sub 커넥터 데이터 셋은 4종류의 환경에 따라 관측된 이미지로 구성
   - 각 환경은 환경이 변화하는 정도에 따라 5단계의 서브 조건을 가짐
   - 총 13개의 도메인(default + Lighting, Brightness, Cameraz 마다 4개) 존재
+    
+![image](https://github.com/sean03101/iai-project/assets/59594037/75c85f7d-1a87-44b2-818d-b45b6073d0e4)
 
 
-![image](https://github.com/sean03101/iai-project/assets/59594037/b0886363-c266-4e0b-ab42-45f4aef87968)
 
 학습/ 검증/ 테스트 데이터셋
 
+![image](https://github.com/sean03101/iai-project/assets/59594037/b0886363-c266-4e0b-ab42-45f4aef87968)
+
+
+이미지 증강 방법
+  - 제조 현장에서 자주 발생하는 8가지의 상황을 가정, 즉 8개의 가상 도메인을 추가로 생성
+  - 이미지 증강 방법 적용 예시
+  - 
+![image](https://github.com/sean03101/iai-project/assets/59594037/198d1fbd-5c94-4ce7-90c6-458689ffe42e)
 
 
 ## 결론
