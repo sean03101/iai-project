@@ -1,11 +1,6 @@
 # 딥러닝 기반 다변량 스팀 사용 이상 감지 및 영향변수 원인 분석
 
 > **Deep Learning-Based Multivariate Steam Usage Anomaly Detection and Root Cause Analysis**  
-> 용역 결과 보고서 | 2024. 02. 22.
-
-서울과학기술대학교 데이터사이언스학과 | 연구책임자 심재웅
-
----
 
 ## 📌 프로젝트 개요
 
